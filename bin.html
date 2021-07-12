@@ -1,0 +1,366 @@
+/***
+/** for small devices only**/
+@media(min-width: 0px) and (max-width: 767px) {
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+	.col-sm-12 {
+		float: left;
+		width: 100%;
+	}
+}
+.container {
+	width: 100%;
+}
+/** for medium devices only**/
+@media(min-width: 768px) and (max-width: 991px) {
+	.col-md-6,.col-md-12 {
+		float: left;
+	}
+	.col-md-4 {
+		float: left;
+		width: 33.33%;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+	.container {
+	width: 50%;
+	float: left;
+    }
+}
+/** for large devices only**/
+@media(min-width: 992px) {
+	.col-lg-3 {
+		float: left;
+		width: 25%;
+	}
+	.col-lg-4 {
+		float: left;
+		width: 33.33%;
+	}
+	.container {
+	width: 50%;
+	float: left;
+    }
+}
+.normal {
+	width: 20%;
+    height: 50px;
+    padding-left: 2%;
+}
+.player {
+	width: 40%;
+}
+
+/**to center text**/
+.centerthetext {
+	text-align: center;
+}
+.commonblock {
+	/**margin: 0 5% 0px;**/
+	height: auto;
+	clear: left;
+}
+
+.check {
+	width: 100%;
+	float: left;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.check button {
+	width: 25%;
+	border: none;
+	cursor: pointer;
+}
+.around {
+   height:10em;
+   width:10em;
+   font-size: 1.5em;
+   opacity:0.5;
+   font-weight: 100;
+   border-radius:50%;
+   border:1px solid #000;
+   text-align: center;
+   vertical-align: middle;
+   text-decoration: none;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	padding: 0px;
+	/**margin: 0px;**/
+}
+/**.container {
+	padding: 0px;
+}**/
+.glyphicon {
+	font-weight: 100;
+   text-align: center;
+}**/
+/** html starting code**/
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>getstarted</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="getstartedstyles.css">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="getstartedcontent" class="container">
+	<div class="check">
+	<button type="button" id="wk">Wicket Keeper</button>
+	<button type="button" id="bm">Batsmen</button>
+	<button type="button" id="ar">Allrounder</button>
+	<button type="button" id="bw">Bowler</button>
+    </div>
+    <div class="row commonblock wicketkeeper">
+    	<div>
+    		<h3 class="centerthetext">Pick 1-4 WicketKeepers</h3>
+    	</div>
+    	<table width="100%">
+    		<tr>
+    			<th></th>
+    			<th>Players</th>
+                <th>Credits</th>
+                <th></th>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Rishabh Pant</td>
+                <td class="normal">27</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td>AB Devilliers</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+      </table>
+    </div>
+	<div class="row commonblock batsmen">
+		<table width="100%">
+    		<tr>
+    			<th></th>
+    			<th>Players</th>
+                <th>Credits</th>
+                <th></th>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Virat Kohli</td>
+                <td class="normal">27</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Shikar Dhawan</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Shreyas Iyer</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Glenn Maxwell</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Shimron Hetmeyer</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Prithvi Shaw</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Devdutt Padikkal</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Rajat Patidar</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+      </table>
+	</div>
+	<div class="row commonblock allrounder">
+		<table width="100%">
+    		<tr>
+    			<th></th>
+    			<th>Players</th>
+                <th>Credits</th>
+                <th></th>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Marcus Stoinis</td>
+                <td class="normal">27</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Axar Patel</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Kyle Jamieson</td>
+                <td class="normal">27</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Washington Sundar</td>
+                <td class="normal">27</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+      </table>
+	</div>
+	<div class="row commonblock bowler">
+		<table width="100%">
+    		<tr>
+    			<th></th>
+    			<th>Players</th>
+                <th>Credits</th>
+                <th></th>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Avesh Khan</td>
+                <td class="normal">27</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Kagiso Rabada</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Mohammed Siraj</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Amit Mishra</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Ishant Sharma</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Harshal Patel</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Chahal</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+            <tr>
+            	<td class="normal"><img width="50" height="50" src="images/01.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Daniel Sams</td>
+                <td class="normal">34</td>
+                <td class="normal"><span class="around"><i class="glyphicon glyphicon-plus"></i></span></td>
+            </tr>
+      </table>
+	</div>
+</div>
+<div class="ground container">
+	
+</div>
+<script type="text/javascript" src="getstartedjs.js"></script>
+</body>
+</html>
+/****
+$(".batsmen").on("click",".clickhere",function(){
+      $("#batsmenarea").append($(".image").html());
+ });
+$(".allrounder").on("click",".clickhere",function(){
+      $("#allrounderarea").append($(".image").html());
+ });
+$(".bowler").on("click",".clickhere",function(){
+      $("#bowlerarea").append($(".image").html());
+ });
+ *****/
+ /***
+ $(".wicketkeeper").on("click",".clickhere",function(){
+	console.log(1);
+	let div = document.createElement('div');
+	div.classList.add('test');
+	var x= $(this).closest('.wicketkeeper').find('.normal:first').children('img').attr('src');
+	console.log(x);
+    var text = document.createElement("img");
+    text.src=x;
+    div.append(text);
+    $("#wicketkeeperarea").append(div);
+ });
+$(".batsmen").on("click",".clickhere",function(){
+	console.log(1);
+	let div = document.createElement('div');
+	div.classList.add('test');
+	var x= $(this).closest('.batsmen').find('.normal:first').children('img').attr('src');
+	console.log(x);
+    var text = document.createElement("img");
+    text.src=x;
+    div.append(text);
+    $("#batsmenarea").append(div);
+ });
+$(".allrounder").on("click",".clickhere",function(){
+	console.log(1);
+	let div = document.createElement('div');
+	div.classList.add('test');
+	var x= $(this).closest('.allrounder').find('.normal:first').children('img').attr('src');
+	console.log(x);
+    var text = document.createElement("img");
+    text.src=x;
+    div.append(text);
+    $("#allrounderarea").append(div);
+ });
+$(".bowler").on("click",".clickhere",function(){
+	console.log(1);
+	let div = document.createElement('div');
+	div.classList.add('test');
+	var x= $(this).closest('.bowler').find('.normal:first').children('img').attr('src');
+	console.log(x);
+    var text = document.createElement("img");
+    text.src=x;
+    div.append(text);
+    $("#bowlerarea").append(div);
+ });
+ ***/

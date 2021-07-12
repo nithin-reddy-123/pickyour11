@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>test</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="getstartedstyles.css">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--<script type="text/javascript" src="playerdetails.json"></script>-->
+</head>
+<body>
+<div class="row">
+  <div class="column block1">
+    <div class="commondiv">
+      <div class="appname centerthetext">YOUR-11PRO</div>
+      <div class="matchinfo">
+        <div class="playersinfo">
+          <p>Players</p>
+          <p class="playerschosen">0/11</p>
+        </div>
+        <div class="teamainfo">
+          <p>Team-A</p>
+          <p class="teamaplayerschosen">0</p>
+        </div>
+        <div class="teambinfo">
+          <p>Team-B</p>
+          <p class="teambplayerschosen">0</p>
+        </div>
+        <div class="creditsinfo">
+          <p>Credits Used</p>
+          <p class="creditsused">0</p>
+        </div>
+      </div>
+      <div class="progressbar">
+        <div id="parallelogram" class="progressunit"></div>
+        <div id="parallelogram" class="progressunit"></div>
+        <div id="parallelogram" class="progressunit"></div>
+        <div id="parallelogram" class="progressunit"></div>
+        <div id="parallelogram" class="progressunit"></div>
+        <div id="parallelogram" class="progressunit"></div>
+        <div id="parallelogram" class="progressunit"></div>
+        <div id="parallelogram" class="progressunit"></div>
+        <div id="parallelogram" class="progressunit"></div>
+        <div id="parallelogram" class="progressunit"></div>
+        <div id="parallelogram" class="progressunit"></div>
+      </div>
+    </div>
+    
+  <div class="check">
+  <button type="button" id="wk">Wicket Keeper</button>
+  <button type="button" id="bm">Batsmen</button>
+  <button type="button" id="ar">Allrounder</button>
+  <button type="button" id="bw">Bowler</button>
+    </div>
+    <div class="row commonblock wicketkeeper">
+      <div class="picktext">
+        <h5 class="centerthetext"><b>Pick 1-4 WicketKeepers</b></h5>
+      </div>
+      <table width="100%" class="wktable">
+            <tr>
+              <th></th>
+              <th>Players</th>
+              <th>Credits</th>
+              <th></th>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/pant.png" alt="batsmen4" class="center"></td>
+                <td class="player">RishabhPant</td>
+                <td class="credits">9</td>
+                <td class=" normal normalbutton"><button type="button" class="clickhere teama">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/abd.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">ABDevilliers</td>
+                <td class="credits">10</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teamb">+</button></td>
+            </tr>
+      </table>
+      <div class="whenallwkadded centerthetext">You Have added all WicketKeepers to your team.</div>
+      <!--<button class="nextpage">Next</button>-->
+    </div>
+  <div class="row commonblock batsmen">
+    <div class="picktext">
+        <h5 class="centerthetext"><b>Pick 3-6 Batsmen</b></h5>
+    </div>
+    <table width="100%" class="bmtable">
+        <tr>
+          <th></th>
+          <th>Players</th>
+                <th>Credits</th>
+                <th></th>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/kohli.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">ViratKohli</td>
+                <td class="credits">11</td>
+                <td class="normal  normalbutton"><button type="button" class="clickhere teamb">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/dhawan.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">ShikarDhawan</td>
+                <td class="credits">11</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teama">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/shreyas.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">ShreyasIyer</td>
+                <td class="credits">9</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teama">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/maxwell.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">GlennMaxwell</td>
+                <td class="credits">10</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teamb">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/hetmeyer.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">ShimronHetmeyer</td>
+                <td class="credits">9</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teama">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/prithvishaw.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">PrithviShaw</td>
+                <td class="credits">9</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teama">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/dev.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">DevduttPadikkal</td>
+                <td class="credits">8</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teamb">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/rajat.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">RajatPatidar</td>
+                <td class="credits">7</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teamb">+</button></td>
+            </tr>
+      </table>
+  </div>
+  <div class="row commonblock allrounder">
+    <div class="picktext">
+        <h5 class="centerthetext"><b>Pick 1-4 Allrounders</b></h5>
+    </div>
+    <table width="100%" class="artable">
+        <tr>
+          <th></th>
+          <th>Players</th>
+                <th>Credits</th>
+                <th></th>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/stoinis.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">MarcusStoinis</td>
+                <td class="credits">8</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teama">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/axar.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">AxarPatel</td>
+                <td class="credits">9</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teama">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/jamieson.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">KyleJamieson</td>
+                <td class="credits">10</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teamb">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/washi.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">WashingtonSundar</td>
+                <td class="credits">9</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teamb">+</button></td>
+            </tr>
+      </table>
+      <div class="whenallaradded centerthetext">You Have added all Allrounders to your team.</div>
+  </div>
+  <div class="row commonblock bowler">
+    <div class="picktext">
+        <h5 class="centerthetext"><b>Pick 3-6 Bowlers</b></h5>
+    </div>
+    <table width="100%" class="bwtable">
+        <tr>
+          <th></th>
+          <th>Players</th>
+                <th>Credits</th>
+                <th></th>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/avesh.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">AveshKhan</td>
+                <td class="credits">11</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teama">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/rabada.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">KagisoRabada</td>
+                <td class="credits">10</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teama">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/siraj.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">MohammedSiraj</td>
+                <td class="credits">11</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teamb">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/amit.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">AmitMishra</td>
+                <td class="credits">9</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teama">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/ishant.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">IshantSharma</td>
+                <td class="credits">9</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teama">+</button></td>
+            </tr>
+            <tr  class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/harshal.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">HarshalPatel</td>
+                <td class="credits">10</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teamb">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/chahal.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">Chahal</td>
+                <td class="credits">10</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teamb">+</button></td>
+            </tr>
+            <tr class="parent">
+              <td class="normal image"><img width="50" height="50" src="images/sams.jpg" alt="batsmen4" class="center"></td>
+                <td class="player">DanielSams</td>
+                <td class="credits">9</td>
+                <td class="normal normalbutton"><button type="button" class="clickhere teamb">+</button></td>
+            </tr>
+      </table>
+  </div>
+  <!--<div>
+    <button type="button" class="mainbutton">Play Now!</button>
+  </div>-->
+  </div>
+  <div class="column block2">
+    <div id="wicketkeeperarea">
+      <h4 class="centerthetext">Wicket Keepers</h4>
+      <div class="inside"></div>
+    </div>
+    <div id="batsmenarea">
+      <h4 class="centerthetext">Batsmen</h4>
+      <div class="inside"></div>
+    </div>
+    <div id="allrounderarea">
+      <h4 class="centerthetext">All Rounders</h4>
+      <div class="inside"></div>
+    </div>
+    <div id="bowlerarea">
+      <h4 class="centerthetext">Bowlers</h4>
+      <div class="inside"></div>
+    </div>
+  </div>
+</div>
+<div id="yourteam" class="centerthetext">
+  <div class="centerthetext topofteam">YOUR TEAM</div>
+  <div id="youryourteam"></div>
+  <table id="myteam" class="centerthetable">
+    
+  </table>
+  <button type="button" class="checkscore">Check Your Score</button>
+  <div class="lastdiv">
+    <p class="lastp">
+      <span class="lastbspan">YourScore</span>
+      <span class="lastspan"></span>
+    </p>
+    <p id="yourcred">
+      <span class="lastbspan">YourCredits</span>
+      <span id="ycs"></span>
+    </p>
+    <p class="lastbp">
+      <span class="lastbspan">OpponentScore</span>
+      <span class="flastspan"></span>
+    </p>
+    <p id="oppocred">
+      <span class="lastbspan">OpponentCredits</span>
+      <span id="ocs"></span>
+    </p>
+    <p id="showresult">
+      <img id="resimg" src='#' style="display:none">
+    </p>
+  </div>
+</div>
+<script type="text/javascript" src="getstartedjs.js"></script>
+</body>
+</html>
